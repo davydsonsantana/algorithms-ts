@@ -1,0 +1,25 @@
+{
+  "name": "fraud-detection-challange",
+  "version": "1.0.0",
+  "description": "Job interview challenge",
+  "main": "./src/index.ts",
+  "repository": "git@github.com:davydsonsantana/fraud-detection-challange.git",
+  "author": "Davydson Santana",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node -r dotenv/config -r tsconfig-paths/register src/index.ts -e ts --verbose --trace-warnings",
+    "start:debug": "nodemon --watch 'src/' --exec \"ts-node -r dotenv/config -r tsconfig-paths/register src/index.ts -e ts --verbose --trace-warnings\""
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "tsconfig-paths": "^4.0.0"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "4.2.4"
+  }
+}
