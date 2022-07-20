@@ -1,3 +1,5 @@
+// Solution with divide and conquer
+
 function getCommonPrefix(str1: string, str2: string): string {
   let result = ''
   let n1 = str1.length,
