@@ -8,13 +8,17 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node -r dotenv/config -r tsconfig-paths/register src/index.ts -e ts --verbose --trace-warnings",
-    "start:debug": "nodemon --watch 'src/' --exec \"ts-node -r dotenv/config -r tsconfig-paths/register src/index.ts -e ts --verbose --trace-warnings\""
+    "start:debug": "nodemon --watch 'src/' --exec \"ts-node -r dotenv/config -r tsconfig-paths/register src/index.ts -e ts --verbose --trace-warnings\"",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.6",
     "@types/node": "^18.0.4",
     "dotenv": "^16.0.1",
+    "jest": "^28.1.3",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
     "tsconfig-paths": "^4.0.0"
   },
   "dependencies": {

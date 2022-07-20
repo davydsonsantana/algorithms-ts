@@ -1,6 +1,23 @@
-{
+{ 
   "semi": false,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+          "semi": false,
   "trailingComma": "none",
   "singleQuote": true,
   "printWidth": 150
+      }
+    },
+    {
+      "files": ["*.json", ".prettierrc"],
+      "options": {
+          "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
+      }
+    }
+  ]
 }
