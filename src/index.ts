@@ -1,7 +1,3 @@
-import { longestCommonPrefixBS } from "@problems/longest-common-prefix/longest-common-prefix-BS"
-import { romanToInt } from "@problems/roman-to-int/roman-to-int"
+import { fibonacciNumber } from "@problems/fibonacci-number/fibonacci-number"
 
-//romanToInt('MCMXCIV')
-
-let arr = ["flower", "flow", "flight"]
-console.log(longestCommonPrefixBS(arr))
+console.log(fibonacciNumber(5))
