@@ -1,7 +1,11 @@
 // Solution with divide and conquer
+export function longestCommonPrefixDC(strs: string[]): string {
+  if (strs == null || strs.length == 0) return ""
+  return divideAndConquer(strs, 0, strs.length - 1)
+}
 
 function getCommonPrefix(str1: string, str2: string): string {
-  let result = ''
+  let result = ""
   let n1 = str1.length,
     n2 = str2.length
 
@@ -14,7 +18,11 @@ function getCommonPrefix(str1: string, str2: string): string {
   return result
 }
 
-function divideAndConquer(A: string[], startIndex: number, endIndex: number): string {
+function divideAndConquer(
+  A: string[],
+  startIndex: number,
+  endIndex: number
+): string {
   if (startIndex == endIndex) {
     return A[startIndex]
   }
@@ -24,8 +32,4 @@ function divideAndConquer(A: string[], startIndex: number, endIndex: number): st
   let rightResult = divideAndConquer(A, midIndex + 1, endIndex)
 
   return getCommonPrefix(leftResult, rightResult)
-}
-
-export function longestCommonPrefix(strs: string[]): string {
-  return divideAndConquer(strs, 0, strs.length - 1)
 }

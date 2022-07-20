@@ -1,6 +1,6 @@
 import { romanToInt } from "@problems/roman-to-int/roman-to-int"
 
-describe("Problem = roman_number_to_int", () => {
+describe("Problem - roman_number_to_int", () => {
   const cases = [
     ["III", 3],
     ["LVIII", 58],
