@@ -1,3 +1,9 @@
+/*
+    F(N) = 0,              if n=0
+           1,              if n=1
+           F(N-1) + F(N-2)
+*/
+
 let fibArr: number[] = []
 
 export function fibonacciNumber(index: number): number {

@@ -1,3 +1,10 @@
+/*
+    F(N) = 0,              if n=0
+           1,              if n=1
+           1,              if n=2
+           F(N-1) + F(N-2)
+*/
+
 let tribArr: number[] = [0, 1, 1]
 
 export function tribonacci(n: number): number {

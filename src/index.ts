@@ -1,3 +1,3 @@
-import { tribonacci } from "@problems/n-th-tribonacci-number/n-th-tribonacci-number"
+import { climbStairs } from "@problems/climbing-stairs/climbing-stairs"
 
-console.log(tribonacci(9))
+console.log(climbStairs(3))
