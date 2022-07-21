@@ -1,3 +1,3 @@
-import { fibonacciNumber } from "@problems/fibonacci-number/fibonacci-number"
+import { tribonacci } from "@problems/n-th-tribonacci-number/n-th-tribonacci-number"
 
-console.log(fibonacciNumber(5))
+console.log(tribonacci(9))
