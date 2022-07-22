@@ -33,4 +33,4 @@ Explanation: There are three ways to climb to the top.
 
 ## Resolution
 
-[](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/climbing-stairs/tree-visualization.jpg?raw=true)
+![](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/climbing-stairs/tree-visualization.jpg?raw=true)
