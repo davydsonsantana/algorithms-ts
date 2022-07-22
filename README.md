@@ -1,5 +1,9 @@
 # Algorithms with TypeScript
 
+## _Algorithms_
+
+- [linear-search](https://github.com/davydsonsantana/algorithms-ts/tree/master/src/algorithms/linear-search)
+
 ## _Problems_
 
 - [Climbing stairs](https://github.com/davydsonsantana/algorithms-ts/tree/master/src/problems/climbing-stairs)
