@@ -2,6 +2,7 @@
 
 ## _Algorithms_
 
+- [Binary Search](https://github.com/davydsonsantana/algorithms-ts/tree/master/src/algorithms/binary-search)
 - [Linear Search](https://github.com/davydsonsantana/algorithms-ts/tree/master/src/algorithms/linear-search)
 
 ## _Problems_
