@@ -1,3 +1,5 @@
-import { climbStairs } from "@problems/climbing-stairs/climbing-stairs"
+import { minCostClimbingStairs } from "@problems/min-cost-climbing-stairs/min-cost-climbing-stairs"
 
-console.log(climbStairs(3))
+//var arr = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+var arr = [0, 0, 1, 0]
+console.log(minCostClimbingStairs(arr))
