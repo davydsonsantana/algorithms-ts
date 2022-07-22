@@ -38,3 +38,6 @@ The total cost is 6.
 2 <= cost.length <= 1000
 0 <= cost[i] <= 999
 ```
+
+# Resolution of example 2
+![](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/min-cost-climbing-stairs/graph-visualization.jpg?raw=true)
