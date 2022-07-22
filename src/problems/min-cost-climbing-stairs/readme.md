@@ -41,4 +41,4 @@ The total cost is 6.
 
 # Resolution
 
-[](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/min-cost-climbing-stairs/graph-visualization.jpg?raw=true)
+![](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/min-cost-climbing-stairs/graph-visualization.jpg?raw=true)
