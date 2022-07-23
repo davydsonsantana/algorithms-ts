@@ -39,3 +39,7 @@ w and h consists of only numbers.
 # How it works
 
 ![land-division-on-squares-explanation](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-02.jpg?raw=true)
+
+## Euclidean Algorithm
+
+You should use the Euclidean Algorithm to solve this problem. Read more on [wikipedia](https://wikipedia.org/wiki/Euclidean_algorithm).
