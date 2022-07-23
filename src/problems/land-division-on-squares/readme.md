@@ -34,7 +34,7 @@ Output: 5
 w and h consists of only numbers.
 ```
 
-![land-division-on-squares-constraints](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-01.jpg?
+![land-division-on-squares-constraints](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-01.jpg??raw=true)
 
 # How it works
 
