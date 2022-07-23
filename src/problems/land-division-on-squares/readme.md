@@ -42,4 +42,4 @@ w and h consists of only numbers.
 
 ## Euclidean Algorithm
 
-You should use the Euclidean Algorithm to solve this problem. Read more on [wikipedia](https://wikipedia.org/wiki/Euclidean_algorithm){:target="\_blank"}.
+You should use the Euclidean Algorithm to solve this problem. Read more on <a href="https://wikipedia.org/wiki/Euclidean_algorithm" target="_blank">wikipedia</a>.
