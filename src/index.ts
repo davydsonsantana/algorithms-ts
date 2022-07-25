@@ -1,5 +1,6 @@
-import { houseRobberII } from "@problems/house-robber/house-robber-II"
+import { quicksort } from "@algorithms/quick-sort/quick-sort"
 
-let A = [2, 3, 2]
+let arr = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
-console.log(houseRobberII(A))
+let x = quicksort(arr, 0, 8)
+debugger
