@@ -1,27 +1,35 @@
-export function quicksort(A: number[], p: number, r: number): number[] {
-  if (p < r) {
-    let q = partition(A, p, r)
-    quicksort(A, p, q - 1)
-    quicksort(A, q + 1, r)
+export function quicksort(
+  arr: number[],
+  startIndex: number,
+  endIndex: number
+): number[] {
+  if (startIndex < endIndex) {
+    let q = partition(arr, startIndex, endIndex)
+    quicksort(arr, startIndex, q - 1)
+    quicksort(arr, q + 1, endIndex)
   }
-  return A
+  return arr
 }
 
-function partition(A: number[], p: number, r: number): number {
-  let x = A[r] // Pivot
-  let i = p - 1 // Highest index into the low side
-  for (let j = p; j <= r - 1; j++) {
-    if (A[j] <= x) {
-      i += 1
-      let tmp = A[i]
-      A[i] = A[j]
-      A[j] = tmp
+function partition(
+  arr: number[],
+  startIndex: number,
+  endIndex: number
+): number {
+  let pivot = arr[endIndex]
+  let highestIndexLowSide = startIndex - 1 // Highest index into the low side
+  for (let j = startIndex; j <= endIndex - 1; j++) {
+    if (arr[j] <= pivot) {
+      highestIndexLowSide += 1
+      let tmp = arr[highestIndexLowSide]
+      arr[highestIndexLowSide] = arr[j]
+      arr[j] = tmp
     }
   }
 
-  let tmp = A[i + 1]
-  A[i + 1] = A[r]
-  A[r] = tmp
+  let tmp = arr[highestIndexLowSide + 1]
+  arr[highestIndexLowSide + 1] = arr[endIndex]
+  arr[endIndex] = tmp
 
-  return i + 1
+  return highestIndexLowSide + 1
 }
