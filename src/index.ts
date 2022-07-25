@@ -1,3 +1,5 @@
-import { landDivisionOnSquares } from "@problems/land-division-on-squares/land-division-on-squares"
+import { houseRobberII } from "@problems/house-robber/house-robber-II"
 
-console.log(landDivisionOnSquares(10, 2))
+let A = [2, 3, 2]
+
+console.log(houseRobberII(A))
