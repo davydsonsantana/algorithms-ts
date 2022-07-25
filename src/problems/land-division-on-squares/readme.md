@@ -34,8 +34,12 @@ Output: 5
 w and h consists of only numbers.
 ```
 
-![land-division-on-squares-constraints](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-01.jpg?
+![land-division-on-squares-constraints](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-01.jpg??raw=true)
 
 # How it works
 
 ![land-division-on-squares-explanation](https://github.com/davydsonsantana/algorithms-ts/blob/master/src/problems/land-division-on-squares/land-division-on-squares-02.jpg?raw=true)
+
+## Euclidean Algorithm
+
+You should use the Euclidean Algorithm to solve this problem. Read more on <a href="https://wikipedia.org/wiki/Euclidean_algorithm" target="_blank">wikipedia</a>.
